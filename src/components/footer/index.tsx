@@ -6,7 +6,7 @@ export function FooterComponent() {
     <Footer>
       <ContainerRedes>
         <a href="">
-          <img src="./src/medias/linkedin-uvi.svg" alt="" />{" "}
+          <img src="./src/medias/linkedin-uvi.svg" alt="" />
         </a>
         <a href="">
           <img src="./src/medias/email-png.png" alt="" />
