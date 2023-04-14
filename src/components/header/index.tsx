@@ -22,6 +22,10 @@ export function HeaderComponent() {
   const handleAboutOurs = () => {
     navigate("/about-our");
   };
+
+  const handleContact = () => {
+    navigate("/contact");
+  };
   return (
     <Header>
       {
@@ -35,7 +39,7 @@ export function HeaderComponent() {
       <ContainerHyper>
         <LinkA onClick={handleService}>Servicios</LinkA>
         <LinkA onClick={handleAboutOurs}>Descripcion</LinkA>
-        <LinkA>Contacto</LinkA>
+        <LinkA onClick={handleContact}>Contacto</LinkA>
       </ContainerHyper>
     </Header>
   );

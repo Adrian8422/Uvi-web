@@ -21,6 +21,7 @@ export const ContainerImg = styled.div`
 
 export const ImageHeader = styled.img`
   width: 100%;
+  cursor: pointer;
 `;
 export const ContainerHyper = styled.div`
   display: flex;

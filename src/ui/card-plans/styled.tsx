@@ -4,6 +4,7 @@ export const ContainerCard = styled.div`
   display: flex;
   flex-direction: column;
   height: 446px;
+  padding: 15px;
   cursor: pointer;
   -webkit-box-align: center;
   align-items: center;

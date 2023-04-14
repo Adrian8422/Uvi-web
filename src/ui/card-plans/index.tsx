@@ -1,6 +1,7 @@
 import React from "react";
 import { ContainerCard, TitlePlan, ListBullets, ULlist, Price } from "./styled";
 import { ButtonPay } from "ui/button-pay";
+import { useNavigate } from "react-router-dom";
 
 export function CardPlan({
   serviceOne,
@@ -11,6 +12,10 @@ export function CardPlan({
   duration,
   plan,
 }) {
+  const navigate = useNavigate();
+  const handleContact = () => {
+    navigate("/contact");
+  };
   return (
     <ContainerCard>
       <TitlePlan>{plan}</TitlePlan>
@@ -21,7 +26,7 @@ export function CardPlan({
         <ListBullets>{duration}</ListBullets>
         <ListBullets>{price}</ListBullets>
       </ULlist>
-      <ButtonPay comprar={comprar} />
+      <ButtonPay event={handleContact} comprar={comprar} />
     </ContainerCard>
   );
 }

@@ -12,7 +12,7 @@ export const Footer = styled.footer`
   align-items: center;
   justify-content: center;
   @media (min-width: 490px) {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
 `;
@@ -29,4 +29,30 @@ export const ContainerCopyright = styled.div`
   height: 50px;
   justify-content: space-between;
   color: white;
+`;
+export const ContainerDevelop = styled.div`
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const ContainerRedAndCopy = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  @media (min-width: 700px) {
+    flex-direction: row;
+    justify-content: inherit;
+    align-items: flex-end;
+  }
+`;
+export const PDev = styled.p`
+  font-size: 10px;
+`;
+export const ImgDv = styled.img`
+  width: 20px;
 `;

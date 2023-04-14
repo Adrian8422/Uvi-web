@@ -9,7 +9,7 @@ export function SectionPlan() {
       <TitlePlan>Tipos de planes</TitlePlan>
       <SectionPlans>
         <CardPlan
-          comprar={"comprar"}
+          comprar={"ver más"}
           plan={"Plan Básico"}
           serviceOne={"Capacitación en reclutamiento"}
           serviceTwo={"Acceso a recursos y herramientas en línea"}
@@ -18,7 +18,7 @@ export function SectionPlan() {
           price={"Precio: $29 USD."}
         />
         <CardPlan
-          comprar={"comprar"}
+          comprar={"ver más"}
           plan={"Plan Intermedio"}
           serviceOne={"Capacitación en reclutamiento"}
           serviceTwo={"Asesoramiento personalizado en línea (3 sesiones)"}
@@ -27,7 +27,7 @@ export function SectionPlan() {
           price={"Precio: $79 USD."}
         />
         <CardPlan
-          comprar={"comprar"}
+          comprar={"ver más"}
           plan={"Plan Avanzado"}
           serviceOne={"Capacitación en reclutamiento"}
           serviceTwo={"Acceso a recursos y herramientas en línea"}

@@ -9,8 +9,13 @@ import {
   TitleService,
   ContainerButton,
 } from "./styled";
+import { useNavigate } from "react-router-dom";
 
 export function ServicesCard({ media, service, text }) {
+  const navigate = useNavigate();
+  const handlePageService = () => {
+    navigate("/services");
+  };
   return (
     <ContainerServiceCard>
       <ContainerImageCard>
@@ -21,7 +26,7 @@ export function ServicesCard({ media, service, text }) {
         <TextService>{text}</TextService>
       </ContainerTextCard>
       <ContainerButton>
-        <ButtonCard>Vér más</ButtonCard>
+        <ButtonCard onClick={handlePageService}>Vér más</ButtonCard>
       </ContainerButton>
     </ContainerServiceCard>
   );
