@@ -9,22 +9,28 @@ export function SectionPlan() {
       <TitlePlan>Tipos de planes</TitlePlan>
       <SectionPlans>
         <CardPlan
-          plan={"Plan uno"}
-          serviceOne={"Revisión de currículum"}
-          serviceTwo={"Asesoramiento de entrevistas"}
-          serviceThree={"Evaluación de habilidades"}
+          plan={"Plan Básico"}
+          serviceOne={"Capacitación en reclutamiento"}
+          serviceTwo={"Acceso a recursos y herramientas en línea"}
+          serviceThree={"Técnicas desarrollo"}
+          duration={"Duración: 1 mes"}
+          price={"Precio: $29 USD."}
         />
         <CardPlan
-          plan={"Plan dos"}
-          serviceOne={"Desarrollo de carrera"}
-          serviceTwo={"Networking"}
-          serviceThree={"Gestión de conflictos"}
+          plan={"Plan Intermedio"}
+          serviceOne={"Capacitación en reclutamiento"}
+          serviceTwo={"Asesoramiento personalizado en línea (3 sesiones)"}
+          serviceThree={"Acceso a recursos y herramientas en línea."}
+          duration={"Duración: 3 meses."}
+          price={"Precio: $79 USD."}
         />
         <CardPlan
-          plan={"Plan tres"}
-          serviceOne={"Habilidades de liderazgo"}
-          serviceTwo={"Coaching personalizado"}
-          serviceThree={"Gestión del tiempo"}
+          plan={"Plan Avanzado"}
+          serviceOne={"Capacitación en reclutamiento"}
+          serviceTwo={"Acceso a recursos y herramientas en línea"}
+          serviceThree={"Certificación en Gestión del Talento"}
+          duration={"Duración: 6 meses."}
+          price={"Precio: $149 USD."}
         />
       </SectionPlans>
     </ContainerSection>

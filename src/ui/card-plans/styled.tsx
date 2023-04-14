@@ -8,7 +8,7 @@ export const ContainerCard = styled.div`
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  width: 318px;
+  width: 504px;
   justify-content: space-around;
   background-color: white;
   border-radius: 4px;
