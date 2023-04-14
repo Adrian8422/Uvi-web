@@ -5,6 +5,9 @@ import {
   ContainerImageCard,
   ButtonCard,
   Img,
+  TextService,
+  TitleService,
+  ContainerButton,
 } from "./styled";
 
 export function ServicesCard({ media, service, text }) {
@@ -14,10 +17,12 @@ export function ServicesCard({ media, service, text }) {
         <Img src={media} />
       </ContainerImageCard>
       <ContainerTextCard>
-        <h1>{service}</h1>
-        <p>{text}</p>
+        <TitleService>{service}</TitleService>
+        <TextService>{text}</TextService>
       </ContainerTextCard>
-      <ButtonCard>Vér más</ButtonCard>
+      <ContainerButton>
+        <ButtonCard>Vér más</ButtonCard>
+      </ContainerButton>
     </ContainerServiceCard>
   );
 }

@@ -1,11 +1,13 @@
 import React from "react";
 import { ContainerCard, TitlePlan, ListBullets, ULlist, Price } from "./styled";
+import { ButtonPay } from "ui/button-pay";
 
 export function CardPlan({
   serviceOne,
   serviceTwo,
   serviceThree,
   price,
+  comprar,
   duration,
   plan,
 }) {
@@ -19,7 +21,7 @@ export function CardPlan({
         <ListBullets>{duration}</ListBullets>
         <ListBullets>{price}</ListBullets>
       </ULlist>
-      <Price>$12000</Price>
+      <ButtonPay comprar={comprar} />
     </ContainerCard>
   );
 }

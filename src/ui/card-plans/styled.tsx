@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerCard = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 446px;
   cursor: pointer;
   -webkit-box-align: center;
   align-items: center;
@@ -24,6 +24,7 @@ export const ContainerCard = styled.div`
 `;
 
 export const TitlePlan = styled.h2`
+  padding: 27px 0 0 0;
   font-size: 28px;
   background-image: linear-gradient(
     338deg,

@@ -3,15 +3,14 @@ import styled from "styled-components";
 export const ContainerServiceCard = styled.div`
   display: flex;
 
-  width: 100%;
   flex-direction: column;
-
+  text-align: center;
   margin: 25px;
   background-color: #ffffff47;
   border-radius: 4px;
   transition: transform 0.2s ease-in-out 0s;
-  -webkit-box-align: end;
-  align-items: self-end;
+  align-items: center;
+
   box-shadow: rgba(0, 0, 0, 0.04) 0px 7px 16px 0px,
     rgba(0, 0, 0, 0.07) 0px 1px 3px 0px;
 
@@ -20,16 +19,28 @@ export const ContainerServiceCard = styled.div`
     transition: 0.5s ease-out;
     box-shadow: 0 8px 19px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
   }
+  @media (min-width: 700px) {
+    width: 550px;
+    -webkit-box-align: end;
+    align-items: self-end;
+  }
 `;
 export const ContainerTextCard = styled.div`
   padding: 27px;
   display: flex;
   flex-direction: column;
-  text-align: end;
+  text-align: center;
+  @media (min-width: 700px) {
+    text-align: end;
+  }
 `;
 export const ContainerImageCard = styled.div`
-  display: flex;
+  display: none;
   width: 100%;
+
+  @media (min-width: 700px) {
+    display: flex;
+  }
 `;
 export const Img = styled.img`
   max-width: 100%;
@@ -73,4 +84,18 @@ export const ButtonCard = styled.button`
       width: 150px;
     }
   }
+`;
+
+export const TitleService = styled.h1`
+  margin: 0;
+  padding: 0 2px 11px 0;
+`;
+export const TextService = styled.p`
+  margin: 0;
+  padding: 3px;
+`;
+
+export const ContainerButton = styled.div`
+  display: flex;
+  padding: 2px 10px 8px 0;
 `;

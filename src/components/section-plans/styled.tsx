@@ -6,12 +6,12 @@ export const SectionPlans = styled.section`
   justify-content: space-evenly;
   align-items: center;
   height: 70%;
-  scroll-snap-type: x mandatory;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   margin: 0 auto;
-  display: flex;
+
+  scroll-snap-type: x mandatory;
   overflow-x: scroll;
   white-space: nowrap;
   @media (min-width: 1200) {

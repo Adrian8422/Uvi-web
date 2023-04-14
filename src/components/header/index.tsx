@@ -1,4 +1,5 @@
 import React from "react";
+import useRouter from "react-router-dom";
 import {
   Header,
   ContainerHyper,
@@ -6,14 +7,25 @@ import {
   ContainerImg,
   ImageHeader,
 } from "./styled.";
+import { useNavigate } from "react-router-dom";
 const logo = require("../../medias/uvi.png");
 console.log({ logo });
 
 export function HeaderComponent() {
+  const navigate = useNavigate();
+  const handleService = () => {
+    navigate("/services");
+  };
+  const handleHome = () => {
+    navigate("/");
+  };
+  const handleAboutOurs = () => {
+    navigate("/about-our");
+  };
   return (
     <Header>
       {
-        <ContainerImg>
+        <ContainerImg onClick={handleHome}>
           <ImageHeader
             style={{ paddingLeft: "8px" }}
             src="./src/medias/uvi.png"
@@ -21,8 +33,8 @@ export function HeaderComponent() {
         </ContainerImg>
       }
       <ContainerHyper>
-        <LinkA>Servicios</LinkA>
-        <LinkA>Descripcion</LinkA>
+        <LinkA onClick={handleService}>Servicios</LinkA>
+        <LinkA onClick={handleAboutOurs}>Descripcion</LinkA>
         <LinkA>Contacto</LinkA>
       </ContainerHyper>
     </Header>

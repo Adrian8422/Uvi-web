@@ -6,3 +6,9 @@ body {
   background-color: #ebebeb;
   font-family: "Inter", sans-serif;
 }
+.slider-control-centerright {
+  display: none;
+}
+.slider-control-centerleft {
+  display: none;
+}
