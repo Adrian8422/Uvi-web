@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerCard = styled.div`
   display: flex;
   flex-direction: column;
-  height: 412px;
+  height: 100%;
   cursor: pointer;
   -webkit-box-align: center;
   align-items: center;
@@ -12,10 +12,12 @@ export const ContainerCard = styled.div`
   justify-content: space-around;
   background-color: white;
   border-radius: 4px;
+  transition: transform 0.2s ease-in-out 0s;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 7px 16px 0px,
     rgba(0, 0, 0, 0.07) 0px 1px 3px 0px;
 
   &:hover {
+    transform: translate(0, -10px);
     transition: 0.5s ease-out;
     box-shadow: 0 8px 19px 0 rgb(0 0 0 / 20%), 0 1px 3px 0 rgb(0 0 0 / 10%);
   }
@@ -43,27 +45,11 @@ export const ULlist = styled.ul`
   -webkit-box-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
-  /* align-items: center; */
-  /* text-align: center; */
-  height: 150px;
+
+  height: 100%;
 `;
 export const ListBullets = styled.li`
   text-align: left;
   list-style-type: disc;
   list-style-image: url("./src/medias/bullet-modified.png");
-  ::marker {
-    /* background: linear-gradient(45deg, #f69ec4, #32557f); */
-  }
 `;
-// ul li {
-//     list-style-type: none;
-//     margin-bottom: 15px;
-//     background: linear-gradient(45deg, #f69ec4, #32557f);
-//     height: 24px;
-//     width: 24px;
-//     border-radius: 50%;
-
-//     span {
-//       margin-left: 30px;
-//     }
-//   }

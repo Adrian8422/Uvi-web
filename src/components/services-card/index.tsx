@@ -3,23 +3,21 @@ import {
   ContainerServiceCard,
   ContainerTextCard,
   ContainerImageCard,
+  ButtonCard,
+  Img,
 } from "./styled";
 
-export function ServicesCard() {
+export function ServicesCard({ media, service, text }) {
   return (
     <ContainerServiceCard>
       <ContainerImageCard>
-        <img src="" alt="" />
+        <Img src={media} />
       </ContainerImageCard>
       <ContainerTextCard>
-        <h1>Example de servicio</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae porro
-          quod nulla temporibus rerum deleniti saepe reiciendis praesentium et,
-          modi, nisi illum perferendis repellat, vitae velit. Natus libero
-          molestiae laboriosam?
-        </p>
+        <h1>{service}</h1>
+        <p>{text}</p>
       </ContainerTextCard>
+      <ButtonCard>Vér más</ButtonCard>
     </ContainerServiceCard>
   );
 }

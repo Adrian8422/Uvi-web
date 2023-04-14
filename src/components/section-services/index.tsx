@@ -1,18 +1,50 @@
 import { ServicesCard } from "components/services-card";
+import Carousel from "nuka-carousel";
 
 import React from "react";
-import { ContainerService } from "./styled";
+import { ContainerSectionServices, ContainerService } from "./styled";
 export function ServicesSection() {
   return (
-    <div>
-      <ContainerService>
-        <ServicesCard />
-        <ServicesCard />
-      </ContainerService>
-      <ContainerService>
-        <ServicesCard />
-        <ServicesCard />
-      </ContainerService>
-    </div>
+    <ContainerSectionServices>
+      <Carousel
+        cellAlign={"center"}
+        slideIndex={1}
+        wrapAround={true}
+        autoplay={true}
+      >
+        <ContainerService>
+          <ServicesCard
+            service={"Servicios de contratación:"}
+            media={"./src/medias/rec-hum.jpg"}
+            text={
+              "Ayudamos a las empresas a encontrar y contratar a los mejores candidatos para sus vacantes."
+            }
+          />
+          <ServicesCard
+            service={"Capacitación y Desarrollo"}
+            media={"./src/medias/rec-2.jpg"}
+            text={
+              "Ofrecemos programas de capacitación y desarrollo para mejorar las habilidades y conocimientos de los empleados."
+            }
+          />
+        </ContainerService>
+        <ContainerService>
+          <ServicesCard
+            service={"Administración de Nómina"}
+            media={"./src/medias/rec-3.jpg"}
+            text={
+              "Nos encargamos de todo lo relacionado con la administración de la nómina de los empleados."
+            }
+          />
+          <ServicesCard
+            service={"Servicios de Outplacemen"}
+            media={"./src/medias/rec-4.jpg"}
+            text={
+              "Ayudamos a los empleados a hacer la transición de un trabajo a otro a través de servicios de outplacement."
+            }
+          />
+        </ContainerService>
+      </Carousel>
+    </ContainerSectionServices>
   );
 }

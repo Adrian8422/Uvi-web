@@ -6,6 +6,7 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   background-color: white;
+  /* background: url("./src/medias/Header-image.jpg"); */
   height: 500px;
 
   @media (min-width: 1140px) {

@@ -5,7 +5,19 @@ export const SectionPlans = styled.section`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 500px;
+  height: 70%;
+  scroll-snap-type: x mandatory;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  @media (min-width: 1200) {
+    overflow-x: none;
+    white-space: none;
+  }
 `;
 
 export const TitlePlan = styled.h2`
@@ -27,7 +39,8 @@ export const ContainerSection = styled.div`
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  height: 670px;
+  height: 820px;
   width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+  justify-content: space-evenly;
 `;
