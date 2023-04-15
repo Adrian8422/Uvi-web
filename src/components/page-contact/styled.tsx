@@ -10,9 +10,9 @@ export const ContainerPageFormContact = styled.div`
   justify-content: center;
   color: white;
   background: linear-gradient(
-    107deg,
-    rgb(67 28 72) 29.35%,
-    rgb(106, 58, 183) 78.73%
+    164deg,
+    rgb(40 28 72 / 76%) 29.35%,
+    rgb(55 43 81) 78.73%
   );
   @media (min-width: 700px) {
     justify-content: space-around;
@@ -33,5 +33,11 @@ export const ImgContactUVI = styled.img`
   display: none;
   @media (min-width: 700px) {
     display: flex;
+    filter: drop-shadow(1px 3px 6px black);
   }
+`;
+
+export const TextContact = styled.h3`
+  color: black;
+  font-weight: 100;
 `;

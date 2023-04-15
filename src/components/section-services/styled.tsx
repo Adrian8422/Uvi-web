@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerSectionServices = styled.section`
   display: flex;
   flex-direction: column;
+  text-align: center;
   height: 100%;
   width: 100%;
   background-image: linear-gradient(
@@ -33,6 +34,11 @@ export const ContainerWithCarousel = styled.div`
   @media (min-width: 700px) {
     display: flex;
   }
+`;
+export const TitleOursService = styled.h1`
+  color: #1c181af5;
+  font-weight: 100;
+  font-size: 40px;
 `;
 
 export const ContainerService = styled.div`

@@ -7,11 +7,13 @@ import {
   ContainerService,
   ContainerWithoutCarousel,
   ContainerWithCarousel,
+  TitleOursService,
 } from "./styled";
 console.log({ Carousel });
 export function ServicesSection() {
   return (
     <ContainerSectionServices>
+      <TitleOursService>Nuestros servicios</TitleOursService>
       <ContainerWithCarousel>
         <Carousel
           cellAlign={"center"}

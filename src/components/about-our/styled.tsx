@@ -27,6 +27,7 @@ export const ImgUvi = styled.img`
   width: 174px;
   @media (min-width: 660px) {
     display: flex;
+    filter: drop-shadow(2px 2px 1px black);
   }
 `;
 export const TitleQuienesSomos = styled.h2`

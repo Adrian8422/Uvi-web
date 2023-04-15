@@ -3,13 +3,17 @@ import {
   ContainerSectionServices,
   ContainerTitleAndTextServices,
   ContainerTitleAndDescription,
+  TitlePageServices,
+  H2Services,
 } from "./styled";
 
 export function FullServices() {
   return (
     <ContainerSectionServices>
       <ContainerTitleAndDescription>
-        <h1>Mejora tu estrategia de recursos humanos con el servicio de Uvi</h1>
+        <TitlePageServices>
+          Mejora tu estrategia de recursos humanos con el servicio de Uvi
+        </TitlePageServices>
         <p>
           En Uvi, entendemos que las empresas necesitan contar con un equipo de
           trabajo de calidad para alcanzar el éxito. Por eso, ofrecemos un
@@ -18,7 +22,7 @@ export function FullServices() {
         </p>
       </ContainerTitleAndDescription>
       <ContainerTitleAndTextServices>
-        <h2>Servicios de Contratación</h2>
+        <H2Services>Servicios de Contratación</H2Services>
         <p>
           La contratación de nuevos empleados puede ser un proceso agotador y a
           menudo lleva mucho tiempo. En lugar de invertir tiempo y recursos en
@@ -30,7 +34,7 @@ export function FullServices() {
         </p>
       </ContainerTitleAndTextServices>
       <ContainerTitleAndTextServices>
-        <h2>Capacitación y Desarrollo</h2>
+        <H2Services>Capacitación y Desarrollo</H2Services>
         <p>
           En Uvi, sabemos que el desarrollo de habilidades y conocimientos de
           los empleados es fundamental para mejorar su rendimiento y aumentar la
@@ -41,7 +45,7 @@ export function FullServices() {
         </p>
       </ContainerTitleAndTextServices>
       <ContainerTitleAndTextServices>
-        <h2>Administración de Nómina</h2>
+        <H2Services>Administración de Nómina</H2Services>
         <p>
           La administración de la nómina puede ser un proceso complicado que
           consume mucho tiempo y puede ser propenso a errores. Nos encargamos de
@@ -54,7 +58,7 @@ export function FullServices() {
         </p>
       </ContainerTitleAndTextServices>
       <ContainerTitleAndTextServices>
-        <h2>Servicios de Outplacement</h2>
+        <H2Services>Servicios de Outplacement</H2Services>
         <p>
           Cuando se producen cambios en una empresa, puede ser difícil para los
           empleados hacer la transición a un nuevo trabajo. Ofrecemos servicios
@@ -66,7 +70,7 @@ export function FullServices() {
         </p>
       </ContainerTitleAndTextServices>
       <ContainerTitleAndTextServices>
-        <h2>Consultoría de Recursos Humanos</h2>
+        <H2Services>Consultoría de Recursos Humanos</H2Services>
         <p>
           En Uvi, ofrecemos consultoría y asesoramiento a las empresas sobre una
           amplia variedad de temas relacionados con los recursos humanos. Nos

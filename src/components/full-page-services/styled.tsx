@@ -25,3 +25,10 @@ export const ContainerTitleAndDescription = styled.div`
   text-align: center;
   padding: 60px;
 `;
+export const TitlePageServices = styled.h1`
+  font-weight: 100;
+`;
+export const H2Services = styled.h2`
+  font-weight: 100;
+  color: #5e27a7;
+`;

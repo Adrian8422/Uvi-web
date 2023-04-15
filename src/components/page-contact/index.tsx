@@ -4,6 +4,7 @@ import {
   ContainerPageFormContact,
   ContainerTextContactPage,
   ContainerTextAndImg,
+  TextContact,
   ImgContactUVI,
 } from "./styled";
 
@@ -13,12 +14,12 @@ export function ComponentPageForm() {
       <ContainerTextAndImg>
         <ImgContactUVI src="./src/medias/logo-uvi-big.png" alt="" />
         <ContainerTextContactPage>
-          <h1>Comunicate con nosotros!</h1>
-          <h4>
+          <h1 style={{ color: "black" }}>Comunicate con nosotros!</h1>
+          <TextContact>
             Llená el formulario con tus datos para que te contactamos. Te vamos
             a comentar más sobre el plan y sus características. Saludos. Equipo
             UVI.
-          </h4>
+          </TextContact>
         </ContainerTextContactPage>
       </ContainerTextAndImg>
       <FormContact />

@@ -7,9 +7,9 @@ export const FormContactUVI = styled.form`
   justify-content: space-around;
   padding: 10px;
   background: linear-gradient(
-    338deg,
-    rgb(156, 39, 176) 29.35%,
-    rgb(106, 58, 183) 78.73%
+    343deg,
+    rgb(68 40 112 / 93%) 29.35%,
+    rgb(92 58 183) 78.73%
   );
   width: 43%;
   -webkit-box-align: center;
