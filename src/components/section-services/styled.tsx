@@ -6,7 +6,7 @@ export const ContainerSectionServices = styled.section`
   height: 100%;
   width: 100%;
   background-image: linear-gradient(
-    rgb(224 92 117 / 86%) 0px,
+    rgb(127 92 224 / 86%) 0px,
     rgb(240, 180, 192) 100%
   );
 `;

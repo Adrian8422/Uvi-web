@@ -16,7 +16,8 @@ export const ContainerImgUvi = styled.div`
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  background-color: #80008057;
+  background-color: rgb(0 5 128 / 34%);
+
   @media (min-width: 660px) {
     justify-content: space-around;
   }

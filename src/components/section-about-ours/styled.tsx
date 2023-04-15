@@ -38,7 +38,10 @@ export const FullTextAboutOurs = styled.p`
 
 export const Button = styled.button`
   background-color: initial;
-  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  background-image: linear-gradient(
+    rgb(95 20 248) 0px,
+    rgb(93 11 224 / 89%) 100%
+  );
   border-radius: 5px;
   border-style: none;
   box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
@@ -88,10 +91,10 @@ export const Title = styled.h1`
   margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 50px;
-  background-image: linear-gradient(
-    338deg,
-    #9c27b0 29.35%,
-    rgb(106 58 183) 78.73%
+  background: linear-gradient(
+    343deg,
+    rgb(68 40 112 / 93%) 29.35%,
+    rgb(92 58 183) 78.73%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
