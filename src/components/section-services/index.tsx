@@ -17,7 +17,7 @@ export function ServicesSection() {
           cellAlign={"center"}
           slideIndex={1}
           wrapAround={true}
-          // autoplay={true}
+          autoplay={true}
           showNavButtons={false}
         >
           <ContainerService>
