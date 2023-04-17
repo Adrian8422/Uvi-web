@@ -24,6 +24,9 @@ export function ServicesSection() {
         >
           <ContainerService>
             <ServicesCard
+              alignItems={null}
+              colorBackground={null}
+              typeAlignText={"end"}
               service={"Servicios de contratación:"}
               media={"./src/medias/rec-hum.jpg"}
               text={
@@ -31,6 +34,9 @@ export function ServicesSection() {
               }
             />
             <ServicesCard
+              alignItems={null}
+              colorBackground={null}
+              typeAlignText={"initial"}
               service={"Capacitación y Desarrollo"}
               media={"./src/medias/rec-2.jpg"}
               text={
@@ -40,6 +46,9 @@ export function ServicesSection() {
           </ContainerService>
           <ContainerService>
             <ServicesCard
+              alignItems={null}
+              colorBackground={null}
+              typeAlignText={"end"}
               service={"Administración de Nómina"}
               media={"./src/medias/rec-5.jpg"}
               text={
@@ -47,6 +56,9 @@ export function ServicesSection() {
               }
             />
             <ServicesCard
+              alignItems={null}
+              colorBackground={null}
+              typeAlignText={"initial"}
               service={"Servicios de Outplacemen"}
               media={"./src/medias/rec-4.jpg"}
               text={
@@ -59,6 +71,9 @@ export function ServicesSection() {
       <ContainerWithoutCarousel>
         <ContainerService>
           <ServicesCard
+            alignItems={"start"}
+            colorBackground={"#9700ff54"}
+            typeAlignText={"end"}
             service={"Servicios de contratación:"}
             media={"./src/medias/rec-hum.jpg"}
             text={
@@ -66,6 +81,9 @@ export function ServicesSection() {
             }
           />
           <ServicesCard
+            alignItems={"end"}
+            colorBackground={"#9700ff4d"}
+            typeAlignText={"initial"}
             service={"Capacitación y Desarrollo"}
             media={"./src/medias/rec-2.jpg"}
             text={
@@ -75,6 +93,9 @@ export function ServicesSection() {
         </ContainerService>
         <ContainerService>
           <ServicesCard
+            alignItems={"start"}
+            colorBackground={"#cc67da47"}
+            typeAlignText={"end"}
             service={"Administración de Nómina"}
             media={"./src/medias/rec-5.jpg"}
             text={
@@ -82,6 +103,9 @@ export function ServicesSection() {
             }
           />
           <ServicesCard
+            alignItems={"end"}
+            colorBackground={"#cc67da47"}
+            typeAlignText={"initial"}
             service={"Servicios de Outplacemen"}
             media={"./src/medias/rec-4.jpg"}
             text={

@@ -9,7 +9,7 @@ export const ContainerServiceCard = styled.div`
   background-color: #ffffff47;
   border-radius: 4px;
   transition: transform 0.2s ease-in-out 0s;
-  align-items: center;
+  align-items: ${(props) => props.alignItems};
 
   box-shadow: rgba(0, 0, 0, 0.04) 0px 7px 16px 0px,
     rgba(0, 0, 0, 0.07) 0px 1px 3px 0px;
@@ -29,7 +29,7 @@ export const ContainerTextCard = styled.div`
   padding: 27px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: ${(props) => props.textAlign};
   @media (min-width: 700px) {
     text-align: end;
   }
@@ -48,6 +48,7 @@ export const Img = styled.img`
 `;
 
 export const ButtonCard = styled.button`
+  display: none;
   background-color: initial;
   background-image: linear-gradient(#f6ccd4 0, #f0b4c0 100%);
   border-radius: 5px;
@@ -55,7 +56,7 @@ export const ButtonCard = styled.button`
   box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
   color: black;
   cursor: pointer;
-  display: inline-block;
+
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -74,6 +75,9 @@ export const ButtonCard = styled.button`
 
   &:hover {
     opacity: 0.7;
+  }
+  @media (min-width: 700px) {
+    display: flex;
   }
 
   @media screen and (max-width: 1000px) {
@@ -97,5 +101,5 @@ export const TextService = styled.p`
 
 export const ContainerButton = styled.div`
   display: flex;
-  padding: 2px 10px 8px 0;
+  padding: 2px 10px 8px 10px;
 `;
