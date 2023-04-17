@@ -24,12 +24,15 @@ export const ImageHeader = styled.img`
   cursor: pointer;
 `;
 export const ContainerHyper = styled.div`
-  display: flex;
+  display: none;
   padding-right: 8px;
   flex-direction: row;
   a {
     padding: 5px;
     cursor: pointer;
+  }
+  @media (min-width: 450px) {
+    display: flex;
   }
 `;
 
