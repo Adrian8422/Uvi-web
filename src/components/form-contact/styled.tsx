@@ -11,7 +11,7 @@ export const FormContactUVI = styled.form`
     rgb(68 40 112 / 93%) 29.35%,
     rgb(92 58 183) 78.73%
   );
-  width: 43%;
+  max-width: 600px;
   -webkit-box-align: center;
   align-items: center;
   border-radius: 4px;
@@ -51,6 +51,7 @@ export const ButtonFormUVI = styled.button`
     rgba(0, 0, 0, 0.07) 0px 1px 3px 0px;
   border: none;
   width: 120px;
+  color: white;
 
   &:hover {
     transform: translate(0, -2px);
