@@ -6,8 +6,9 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   background-color: white;
-  /* background: url("./src/medias/Header-image.jpg"); */
+  background: url("./src/medias/rrhh4.jpg");
   height: 500px;
+  background-size: cover;
 
   @media (min-width: 1140px) {
     flex-direction: row;
@@ -39,13 +40,14 @@ export const FullTextAboutOurs = styled.p`
 export const Button = styled.button`
   background-color: initial;
   background-image: linear-gradient(
-    rgb(95 20 248) 0px,
-    rgb(93 11 224 / 89%) 100%
+    343deg,
+    rgb(210 210 210 / 78%) 29.35%,
+    rgb(119 200 200 / 78%) 75.73%
   );
   border-radius: 5px;
   border-style: none;
   box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
-  color: #fff;
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-family: Inter, sans-serif;
@@ -83,8 +85,10 @@ export const AHyper = styled.a`
   color: #8614f8;
   cursor: pointer;
 `;
+
 export const ShortTextAboutOurs = styled.p`
   max-width: 100%;
+  color: #f1e9e9c8;
 `;
 
 export const Title = styled.h1`
@@ -93,8 +97,8 @@ export const Title = styled.h1`
   font-size: 50px;
   background: linear-gradient(
     343deg,
-    rgb(68 40 112 / 93%) 29.35%,
-    rgb(92 58 183) 78.73%
+    rgb(119 200 200 / 78%) 22.73%,
+    rgb(210 210 210 / 78%) 29.35%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

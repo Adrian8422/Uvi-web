@@ -4,6 +4,6 @@ export const Root = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
 `;

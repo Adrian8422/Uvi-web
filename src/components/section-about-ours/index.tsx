@@ -34,7 +34,7 @@ export function AboutOurs() {
         <Button onClick={activeOrDisable}>Leér más</Button>
       </ContainerAboutOurs>
       <ContainerImage>
-        <Img src="./src/medias/imagehumanos.webp" alt="" />
+        {/* <Img src="./src/medias/rrhh.jpg" alt="" /> */}
       </ContainerImage>
     </Section>
   );

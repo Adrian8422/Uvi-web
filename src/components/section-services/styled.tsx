@@ -7,7 +7,7 @@ export const ContainerSectionServices = styled.section`
   height: 100%;
   width: 100%;
   background-image: linear-gradient(
-    rgb(127 92 224 / 86%) 0px,
+    rgb(207 198 230 / 86%) 0px,
     rgb(240, 180, 192) 100%
   );
 `;
@@ -36,6 +36,7 @@ export const ContainerWithCarousel = styled.div`
   }
 `;
 export const TitleOursService = styled.h1`
+  padding: 29px;
   color: #1c181af5;
   font-weight: 100;
   font-size: 40px;

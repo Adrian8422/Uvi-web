@@ -12,3 +12,7 @@ body {
 .slider-control-centerleft {
   display: none;
 }
+
+.slider-frame {
+  border-radius: 150px;
+}

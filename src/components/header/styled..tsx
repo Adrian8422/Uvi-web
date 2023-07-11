@@ -4,8 +4,8 @@ export const Header = styled.header`
   flex-direction: row;
   background: linear-gradient(
     343deg,
-    rgb(68 40 112 / 93%) 29.35%,
-    rgb(92 58 183) 78.73%
+    rgb(68 40 112 / 88%) 29.35%,
+    rgb(92 58 183 / 87%) 78.73%
   );
   width: 100%;
   height: 50px;

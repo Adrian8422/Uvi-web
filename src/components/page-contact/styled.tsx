@@ -23,6 +23,10 @@ export const ContainerTextAndImg = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: transform 0.3s ease;
+  :hover {
+    transform: translateY(-10px);
+  }
 `;
 export const ContainerTextContactPage = styled.div`
   display: flex;
@@ -38,6 +42,6 @@ export const ImgContactUVI = styled.img`
 `;
 
 export const TextContact = styled.h3`
-  color: black;
+  color: #bababa;
   font-weight: 100;
 `;

@@ -6,7 +6,7 @@ export const SectionPlans = styled.section`
   justify-content: space-evenly;
   align-items: center;
   height: 70%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 40px;
   margin: 0 auto;
