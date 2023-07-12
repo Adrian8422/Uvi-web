@@ -3,10 +3,8 @@ export const SectionPlans = styled.section`
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   height: 70%;
-  justify-content: space-evenly;
   align-items: center;
   gap: 40px;
   margin: 0 auto;
@@ -14,7 +12,8 @@ export const SectionPlans = styled.section`
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
   white-space: nowrap;
-  @media (min-width: 1200) {
+  @media (min-width: 1200px) {
+    justify-content: space-evenly;
     overflow-x: none;
     white-space: none;
   }
